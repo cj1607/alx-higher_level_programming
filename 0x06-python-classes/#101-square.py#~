@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+"""my square module."""
+
+
+class Square:
+    """define a Square."""
+
+    def __str__(self):
+        """teach python to print the square my way"""
+        return self.pos_print()[:-1]
